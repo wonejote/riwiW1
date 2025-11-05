@@ -23,3 +23,12 @@ while not itemCount.isdecimal():
 itemCount = int(itemCount)
 
 #---------------------Task 3---------------------
+
+costoTotal = itemPrice*itemCount
+
+#---------------------Task 4---------------------
+
+print(f"Producto: {itemName} | Precio: {itemPrice} | Cantidad: {itemCount} | Total: {costoTotal}")
+
+#------------------------------------------------
+
